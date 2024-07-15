@@ -47,13 +47,15 @@ struct ContentView: View {
                     .font(.largeTitle)
                     .bold()
                     .padding(.bottom, 24)
+                    .foregroundColor(viewModel.user1Color)
                 
                 Text("Player 2's chance of winning")
                     .font(.title2)
                 
-                Text("\(Int(round(viewModel.expectedScores.0 * 100)))%")
+                Text("\(Int(round(viewModel.expectedScores.1 * 100)))%")
                     .font(.largeTitle)
                     .bold()
+                    .foregroundColor(viewModel.user2Color)
             }
 
             Spacer()
