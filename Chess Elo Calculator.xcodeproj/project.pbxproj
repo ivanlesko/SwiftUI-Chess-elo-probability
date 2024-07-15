@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E4A03F52C438F2500D0F4DE /* Chess_Elo_CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4A03F42C438F2500D0F4DE /* Chess_Elo_CalculatorApp.swift */; };
+		4E4A03F72C438F2500D0F4DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4A03F62C438F2500D0F4DE /* ContentView.swift */; };
+		4E4A03F92C438F2600D0F4DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E4A03F82C438F2600D0F4DE /* Assets.xcassets */; };
+		4E4A03FC2C438F2600D0F4DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E4A03FB2C438F2600D0F4DE /* Preview Assets.xcassets */; };
+		4E4A04062C438F2600D0F4DE /* Chess_Elo_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4A04052C438F2600D0F4DE /* Chess_Elo_CalculatorTests.swift */; };
+		4E4A04102C438F2600D0F4DE /* Chess_Elo_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4A040F2C438F2600D0F4DE /* Chess_Elo_CalculatorUITests.swift */; };
+		4E4A04122C438F2600D0F4DE /* Chess_Elo_CalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4A04112C438F2600D0F4DE /* Chess_Elo_CalculatorUITestsLaunchTests.swift */; };
+		4EBDCA482C45861B0077F29F /* EloViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBDCA472C45861B0077F29F /* EloViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E4A04022C438F2600D0F4DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E4A03E92C438F2500D0F4DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E4A03F02C438F2500D0F4DE;
+			remoteInfo = "Chess Elo Calculator";
+		};
+		4E4A040C2C438F2600D0F4DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E4A03E92C438F2500D0F4DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E4A03F02C438F2500D0F4DE;
+			remoteInfo = "Chess Elo Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E4A03F12C438F2500D0F4DE /* Chess Elo Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chess Elo Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E4A03F42C438F2500D0F4DE /* Chess_Elo_CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chess_Elo_CalculatorApp.swift; sourceTree = "<group>"; };
+		4E4A03F62C438F2500D0F4DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4E4A03F82C438F2600D0F4DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E4A03FB2C438F2600D0F4DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4E4A04012C438F2600D0F4DE /* Chess Elo CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chess Elo CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E4A04052C438F2600D0F4DE /* Chess_Elo_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chess_Elo_CalculatorTests.swift; sourceTree = "<group>"; };
+		4E4A040B2C438F2600D0F4DE /* Chess Elo CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chess Elo CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E4A040F2C438F2600D0F4DE /* Chess_Elo_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chess_Elo_CalculatorUITests.swift; sourceTree = "<group>"; };
+		4E4A04112C438F2600D0F4DE /* Chess_Elo_CalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chess_Elo_CalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4EBDCA472C45861B0077F29F /* EloViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EloViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E4A03EE2C438F2500D0F4DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E4A03FE2C438F2600D0F4DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E4A04082C438F2600D0F4DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E4A03E82C438F2500D0F4DE = {
+			isa = PBXGroup;
+			children = (
+				4E4A03F32C438F2500D0F4DE /* Chess Elo Calculator */,
+				4E4A04042C438F2600D0F4DE /* Chess Elo CalculatorTests */,
+				4E4A040E2C438F2600D0F4DE /* Chess Elo CalculatorUITests */,
+				4E4A03F22C438F2500D0F4DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E4A03F22C438F2500D0F4DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E4A03F12C438F2500D0F4DE /* Chess Elo Calculator.app */,
+				4E4A04012C438F2600D0F4DE /* Chess Elo CalculatorTests.xctest */,
+				4E4A040B2C438F2600D0F4DE /* Chess Elo CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E4A03F32C438F2500D0F4DE /* Chess Elo Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				4E4A03F42C438F2500D0F4DE /* Chess_Elo_CalculatorApp.swift */,
+				4E4A03F62C438F2500D0F4DE /* ContentView.swift */,
+				4EBDCA472C45861B0077F29F /* EloViewModel.swift */,
+				4E4A03F82C438F2600D0F4DE /* Assets.xcassets */,
+				4E4A03FA2C438F2600D0F4DE /* Preview Content */,
+			);
+			path = "Chess Elo Calculator";
+			sourceTree = "<group>";
+		};
+		4E4A03FA2C438F2600D0F4DE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4E4A03FB2C438F2600D0F4DE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4E4A04042C438F2600D0F4DE /* Chess Elo CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E4A04052C438F2600D0F4DE /* Chess_Elo_CalculatorTests.swift */,
+			);
+			path = "Chess Elo CalculatorTests";
+			sourceTree = "<group>";
+		};
+		4E4A040E2C438F2600D0F4DE /* Chess Elo CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E4A040F2C438F2600D0F4DE /* Chess_Elo_CalculatorUITests.swift */,
+				4E4A04112C438F2600D0F4DE /* Chess_Elo_CalculatorUITestsLaunchTests.swift */,
+			);
+			path = "Chess Elo CalculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E4A03F02C438F2500D0F4DE /* Chess Elo Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E4A04152C438F2600D0F4DE /* Build configuration list for PBXNativeTarget "Chess Elo Calculator" */;
+			buildPhases = (
+				4E4A03ED2C438F2500D0F4DE /* Sources */,
+				4E4A03EE2C438F2500D0F4DE /* Frameworks */,
+				4E4A03EF2C438F2500D0F4DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chess Elo Calculator";
+			productName = "Chess Elo Calculator";
+			productReference = 4E4A03F12C438F2500D0F4DE /* Chess Elo Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E4A04002C438F2600D0F4DE /* Chess Elo CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E4A04182C438F2600D0F4DE /* Build configuration list for PBXNativeTarget "Chess Elo CalculatorTests" */;
+			buildPhases = (
+				4E4A03FD2C438F2600D0F4DE /* Sources */,
+				4E4A03FE2C438F2600D0F4DE /* Frameworks */,
+				4E4A03FF2C438F2600D0F4DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E4A04032C438F2600D0F4DE /* PBXTargetDependency */,
+			);
+			name = "Chess Elo CalculatorTests";
+			productName = "Chess Elo CalculatorTests";
+			productReference = 4E4A04012C438F2600D0F4DE /* Chess Elo CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E4A040A2C438F2600D0F4DE /* Chess Elo CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E4A041B2C438F2600D0F4DE /* Build configuration list for PBXNativeTarget "Chess Elo CalculatorUITests" */;
+			buildPhases = (
+				4E4A04072C438F2600D0F4DE /* Sources */,
+				4E4A04082C438F2600D0F4DE /* Frameworks */,
+				4E4A04092C438F2600D0F4DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E4A040D2C438F2600D0F4DE /* PBXTargetDependency */,
+			);
+			name = "Chess Elo CalculatorUITests";
+			productName = "Chess Elo CalculatorUITests";
+			productReference = 4E4A040B2C438F2600D0F4DE /* Chess Elo CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E4A03E92C438F2500D0F4DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					4E4A03F02C438F2500D0F4DE = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					4E4A04002C438F2600D0F4DE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 4E4A03F02C438F2500D0F4DE;
+					};
+					4E4A040A2C438F2600D0F4DE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 4E4A03F02C438F2500D0F4DE;
+					};
+				};
+			};
+			buildConfigurationList = 4E4A03EC2C438F2500D0F4DE /* Build configuration list for PBXProject "Chess Elo Calculator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E4A03E82C438F2500D0F4DE;
+			productRefGroup = 4E4A03F22C438F2500D0F4DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E4A03F02C438F2500D0F4DE /* Chess Elo Calculator */,
+				4E4A04002C438F2600D0F4DE /* Chess Elo CalculatorTests */,
+				4E4A040A2C438F2600D0F4DE /* Chess Elo CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E4A03EF2C438F2500D0F4DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E4A03FC2C438F2600D0F4DE /* Preview Assets.xcassets in Resources */,
+				4E4A03F92C438F2600D0F4DE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E4A03FF2C438F2600D0F4DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E4A04092C438F2600D0F4DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E4A03ED2C438F2500D0F4DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E4A03F72C438F2500D0F4DE /* ContentView.swift in Sources */,
+				4EBDCA482C45861B0077F29F /* EloViewModel.swift in Sources */,
+				4E4A03F52C438F2500D0F4DE /* Chess_Elo_CalculatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E4A03FD2C438F2600D0F4DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E4A04062C438F2600D0F4DE /* Chess_Elo_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E4A04072C438F2600D0F4DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E4A04122C438F2600D0F4DE /* Chess_Elo_CalculatorUITestsLaunchTests.swift in Sources */,
+				4E4A04102C438F2600D0F4DE /* Chess_Elo_CalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E4A04032C438F2600D0F4DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E4A03F02C438F2500D0F4DE /* Chess Elo Calculator */;
+			targetProxy = 4E4A04022C438F2600D0F4DE /* PBXContainerItemProxy */;
+		};
+		4E4A040D2C438F2600D0F4DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E4A03F02C438F2500D0F4DE /* Chess Elo Calculator */;
+			targetProxy = 4E4A040C2C438F2600D0F4DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4E4A04132C438F2600D0F4DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E4A04142C438F2600D0F4DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E4A04162C438F2600D0F4DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Chess Elo Calculator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ivanl.Chess-Elo-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E4A04172C438F2600D0F4DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Chess Elo Calculator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ivanl.Chess-Elo-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4E4A04192C438F2600D0F4DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ivanl.Chess-Elo-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chess Elo Calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chess Elo Calculator";
+			};
+			name = Debug;
+		};
+		4E4A041A2C438F2600D0F4DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ivanl.Chess-Elo-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chess Elo Calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chess Elo Calculator";
+			};
+			name = Release;
+		};
+		4E4A041C2C438F2600D0F4DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ivanl.Chess-Elo-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Chess Elo Calculator";
+			};
+			name = Debug;
+		};
+		4E4A041D2C438F2600D0F4DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ivanl.Chess-Elo-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Chess Elo Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E4A03EC2C438F2500D0F4DE /* Build configuration list for PBXProject "Chess Elo Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E4A04132C438F2600D0F4DE /* Debug */,
+				4E4A04142C438F2600D0F4DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E4A04152C438F2600D0F4DE /* Build configuration list for PBXNativeTarget "Chess Elo Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E4A04162C438F2600D0F4DE /* Debug */,
+				4E4A04172C438F2600D0F4DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E4A04182C438F2600D0F4DE /* Build configuration list for PBXNativeTarget "Chess Elo CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E4A04192C438F2600D0F4DE /* Debug */,
+				4E4A041A2C438F2600D0F4DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E4A041B2C438F2600D0F4DE /* Build configuration list for PBXNativeTarget "Chess Elo CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E4A041C2C438F2600D0F4DE /* Debug */,
+				4E4A041D2C438F2600D0F4DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E4A03E92C438F2500D0F4DE /* Project object */;
+}
