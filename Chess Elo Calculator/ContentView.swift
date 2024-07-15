@@ -37,17 +37,24 @@ struct ContentView: View {
                         }
                 }
             }
-            .frame(height: 150)
+            .frame(height: 160)
             
-            VStack(alignment: .leading) {
-                Text("Player 1 has a \(Int(round(viewModel.expectedScores.0 * 100)))% chance of winning")
-                    .font(.system(size: 20, weight: .medium))
-                    .padding(.bottom, 10)
-                Text("Player 2 has a \(Int(round(viewModel.expectedScores.1 * 100)))% chance of winning")
-                    .font(.system(size: 20, weight: .medium))
+            VStack(spacing: 10) {
+                Text("Player 1's chance of winning")
+                    .font(.title2)
+                
+                Text("\(Int(round(viewModel.expectedScores.0 * 100)))%")
+                    .font(.largeTitle)
+                    .bold()
+                    .padding(.bottom, 24)
+                
+                Text("Player 2's chance of winning")
+                    .font(.title2)
+                
+                Text("\(Int(round(viewModel.expectedScores.0 * 100)))%")
+                    .font(.largeTitle)
+                    .bold()
             }
-            .padding(.horizontal)
-            .padding(.top)
 
             Spacer()
         }
